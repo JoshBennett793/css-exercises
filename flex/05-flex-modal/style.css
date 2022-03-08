@@ -6,10 +6,10 @@ html, body {
 
 .header {
   display: flex;
-  align-items: center;
-  justify-content: center;
   font-weight: bold;
+  font-size: 20px;
   flex: 1 1 auto;
+  align-items: center;
 }
 
 body {
@@ -28,10 +28,12 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
 }
 
 .top {
   display: flex;
+  gap: 15px;
 }
 
 .icon {
@@ -57,16 +59,16 @@ body {
   height: 24px;
   width: 24px;
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   flex: 1 0 1;
   align-self: center;
-
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-left: 57px;
 }
 
 button.continue {
@@ -79,4 +81,9 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.text {
+  margin-left: 57px;
+  margin-bottom: 15px;
 }
