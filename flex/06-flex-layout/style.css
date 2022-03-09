@@ -5,6 +5,13 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* not sure if align-items is the right centering
+  property to use.  It pushes the margin in on the 
+  sides and squeezes it to it's content-max. */
+  align-items: center;
+  justify-content: space-between;
 }
 
 img {
@@ -24,4 +31,25 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  /* I would think I need to set flex to :1 1 auto;
+  to get it to push down */
+}
+
+content {
+  /* Center content somehow. Conventional centering
+  properties have not been working so far for some
+  reason. */
 }
